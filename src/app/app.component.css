@@ -88,6 +88,7 @@ span.toursim-txt {
 }
 span.video-txt {
 	font-size: 18px;
+	padding-left: 44px;
 }
 .play-icon{
 	width: 31px;
@@ -97,6 +98,7 @@ span.video-txt {
 	margin-right: 10px;
 	fill: #fff;
 	font-size: 34px;
+	left: 43px;
 }
 
 
@@ -311,7 +313,50 @@ span.video-txt {
 			}
 			.explore-btn{
 				margin-left: 49px !important;
-				margin-top: 23px !important;
+				/*margin-top: 23px !important;*/
+			}
+			.video_icon{
+				padding-top: 10px !important;
+			}
+			.tour-des p{
+				padding-top: 32px !important;
+			}
+		}
+	@media (max-width:900px) and (min-width:768px) {
+			/deep/.carousel-indicators{
+				left: 668px!important;
+				padding-bottom: 487px!important;
+				margin-left: -51% !important;
+			}
+			.navbar-default.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+				/*border-color: #e7e7e7;*/
+				width: 100% !important;
+				background-color: white !important;
+			}
+			.toursim-menu li{
+				display:block !important;
+				font-weight:bold;
+			}
+			/deep/.mat-form-field-wrapper {
+				position: relative;
+				padding-left: 15px;
+			}
+			/deep/.fa-search {
+				padding-left: 179px !important;
+			}
+			/deep/span.mat-button-wrapper {
+				font-size: 17px;
+			}
+			.tour-des {
+				margin-top: 41px !important;
+			}
+			.num-tour{
+				font-size: 69px !important;
+				padding-left: 50px !important;
+			}
+			.explore-btn{
+				margin-left: 49px !important;
+				/*margin-top: 23px !important;*/
 			}
 			.video_icon{
 				padding-top: 10px !important;
