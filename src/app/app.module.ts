@@ -12,6 +12,7 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatInputModule} from '@angular/material/input';
 import { RouterModule } from '@angular/router';
 import { appRoutes } from './routerConfig';
+import {MatDividerModule} from '@angular/material/divider';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,6 +28,7 @@ import { appRoutes } from './routerConfig';
     MatMenuModule,
     MatInputModule,
     RouterModule.forRoot(appRoutes),
+    MatDividerModule
     
   ],
   providers: [],
