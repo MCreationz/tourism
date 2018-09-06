@@ -267,6 +267,12 @@ span.video-txt {
 				width: 100% !important;
 				background-color: white !important;
 			}
+			/deep/.fa-search {
+				padding-left: 86px !important;
+			}
+			/deep/.mat-form-field-infix {
+				width: 80px !important;
+			}
 			.tour-des p{
 				padding-top: 43px;
 				/*text_align: right;*/
@@ -366,6 +372,9 @@ span.video-txt {
 				width: 100% !important;
 				background-color: white !important;
 			}
+			/deep/.mat-form-field-infix {
+				width: 180px !important;
+			}
 			.toursim-menu li{
 				display:block !important;
 				font-weight:bold;
@@ -419,6 +428,9 @@ span.video-txt {
 				z-index: 15;
 				left: auto;
 			}
+			/deep/.mat-form-field-infix {
+				width: 128px !important;
+			}
 
 			nav.toursim-menu li {
 				display: inline-block;
@@ -430,7 +442,7 @@ span.video-txt {
 				padding-left: 15px;
 			}
 			/deep/.fa-search {
-				padding-left: 179px !important;
+				padding-left: 124px !important;
 			}
 			/deep/span.mat-button-wrapper {
 				font-size: 15px;
@@ -477,8 +489,8 @@ span.video-txt {
 			/deep/.carousel-indicators{
 				/* left: 86%; */
 				position: absolute;
-				right: 75px;
-				top: 54%;
+				right: 33px;
+				top: 53%;
 				z-index: 15;
 				left: auto;
 			}
@@ -500,7 +512,7 @@ span.video-txt {
 				padding-left: 15px;
 			}
 			/deep/.fa-search {
-				padding-left: 179px !important;
+				padding-left: 229px!important;
 			}
 			/deep/span.mat-button-wrapper {
 				font-size: 15px;
