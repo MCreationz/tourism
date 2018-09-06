@@ -170,7 +170,7 @@ span.video-txt {
 
 	}
 	/deep/.fa-search{
-		padding-left: 172px!important;
+		padding-left: 172px;
 	}
 	@font-face {
 		font-family: hobo-std;
@@ -504,7 +504,8 @@ span.video-txt {
 
 			nav.toursim-menu li {
 				display: inline-block;
-				padding-left: 0px; 
+				padding-left: 0px;
+				top: 21px; 
 			}
 
 			/deep/.mat-form-field-wrapper {
@@ -543,8 +544,8 @@ span.video-txt {
 			}
 			nav.toursim-menu li{
 				/*margin-left: -7px;*/
-				top: -8px;
-				left: 61px;
+				top: 21px;
+				left:0px;
 			}
 			.logo{
 				padding-top: 34px;
