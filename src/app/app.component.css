@@ -17,6 +17,9 @@
 .social-icons {
 	padding-left: 32px;
 }
+/deep/.mat-form-field-infix{
+    width: 236px !important;
+}
 
 .inner-tourism {
 	width: 401px;
@@ -94,9 +97,9 @@ span.toursim-txt {
 /deep/.mat-button:hover{
 	background-color: #C5F2FC;
 	color:black;
-	font-weight:bold;
-	text-shadow: 1px 1px 1px #000000;
-	font-size:16px;
+	/*font-weight:bold;*/
+	/*text-shadow: 1px 1px 1px #000000;*/
+	/*font-size:16px;*/
 }
 .tour-des h1{
 	margin-top: 25px;
@@ -163,11 +166,11 @@ span.video-txt {
 	}
 	nav.toursim-menu li {
 		display:inline-block;
-		padding-left: 18px;
+		/*padding-left: 18px;*/
 
 	}
 	/deep/.fa-search{
-		padding-left: 164px;
+		padding-left: 215px;
 	}
 	@font-face {
 		font-family: hobo-std;
@@ -189,6 +192,9 @@ span.video-txt {
 		float:left;
 		font-size:72px;
 		padding-left: 67px;
+	}
+	/deep/.mat-button{
+		top:15px;
 	}
 	.toursim-menu{
 		position: absolute;
@@ -467,7 +473,7 @@ span.video-txt {
 				font-size: 12px;
 			}
 		}
-		@media (max-width:1000px) and (min-width:901px) {
+		@media (max-width:1024px) and (min-width:901px) {
 			/deep/.carousel-indicators{
 				/* left: 86%; */
 				position: absolute;
