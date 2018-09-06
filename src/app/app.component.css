@@ -170,7 +170,7 @@ span.video-txt {
 
 	}
 	/deep/.fa-search{
-		padding-left: 215px;
+		padding-left: 172px!important;
 	}
 	@font-face {
 		font-family: hobo-std;
