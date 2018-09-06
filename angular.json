@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/tourism",
+            "outputPath": "dist/tourism/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -74,7 +74,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "../node_modules/jquery/dist/jquery.js",
+              "../node_modules/bootstrap/dist/js/bootstrap.js",
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
