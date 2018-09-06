@@ -19,7 +19,7 @@
 }
 
 .inner-tourism {
-	width: 92%;
+	width: 401px;
 	position: relative;
 	float: left;
 	margin: 0;
@@ -339,7 +339,7 @@ span.video-txt {
 			.inner-tourism{
 				padding-left: 21px;
 				padding-top: 30px;
-				width: 75%;
+				width: 287px;
 			}
 			span.video-txt{
 				font-size: 12px;
@@ -400,7 +400,7 @@ span.video-txt {
 			.inner-tourism{
 				padding-left: 77px;
 				padding-top: 56px;
-				width: 84%;
+				width: 454px;
 
 			}
 		}
@@ -449,7 +449,7 @@ span.video-txt {
 			.inner-tourism{
 				padding-left: 77px;
 				/*padding-top: 56px;*/
-				width: 51%;
+				width: 456px;
 
 			}
 			.social-icons li{
@@ -475,55 +475,62 @@ span.video-txt {
 				top: 54%;
 				z-index: 15;
 				left: auto;
-			}
+				}
+				.tour-des[_ngcontent-c0] p[_ngcontent-c0]{
+					padding-top: 43px;
+					padding-left: 64px;
+					padding-right: 18px;
+					width: 100%;
+				}
 
-			nav.toursim-menu li {
-				display: inline-block;
-				padding-left: 0px; 
-			}
 
-			/deep/.mat-form-field-wrapper {
-				position: relative;
-				padding-left: 15px;
-			}
-			/deep/.fa-search {
-				padding-left: 179px !important;
-			}
-			/deep/span.mat-button-wrapper {
-				font-size: 15px;
-			}
-			.tour-des {
-				/*margin-top: 41px !important;*/
-			}
-			.num-tour{
-				font-size: 69px !important;
-				padding-left: 50px !important;
-			}
-			.explore-btn{
-				margin-left: 49px !important;
-				/*margin-top: 23px !important;*/
-			}
-			.video_icon{
-				padding-top: 10px !important;
-			}
-			.tour-des p{
-				padding-top: 32px !important;
-			}
-			.inner-tourism{
-				padding-left: 77px;
-				padding-top: 30px;
-				width:47%
+				nav.toursim-menu li {
+					display: inline-block;
+					padding-left: 0px; 
+				}
 
+				/deep/.mat-form-field-wrapper {
+					position: relative;
+					padding-left: 15px;
+				}
+				/deep/.fa-search {
+					padding-left: 179px !important;
+				}
+				/deep/span.mat-button-wrapper {
+					font-size: 15px;
+				}
+				.tour-des {
+					/*margin-top: 41px !important;*/
+				}
+				.num-tour{
+					font-size: 69px !important;
+					padding-left: 50px !important;
+				}
+				.explore-btn{
+					margin-left: 49px !important;
+					/*margin-top: 23px !important;*/
+				}
+				.video_icon{
+					padding-top: 10px !important;
+				}
+				.tour-des p{
+					padding-top: 32px !important;
+				}
+				.inner-tourism{
+					padding-left: 77px;
+					padding-top: 30px;
+					width:442px;
+
+				}
+				nav.toursim-menu li{
+					/*margin-left: -7px;*/
+					top: -51px; 
+					left: 95px;
+				}
+				.logo{
+					padding-top: 34px;
+				}
+				.logo span{
+					font-size: 18px;
+				}
 			}
-			nav.toursim-menu li{
-				/*margin-left: -7px;*/
-				top: -37px; 
-				left: 95px;
-			}
-			.logo{
-				padding-top: 34px;
-			}
-			.logo span{
-				font-size: 18px;
-			}
-		}
