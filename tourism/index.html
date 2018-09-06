@@ -19,11 +19,24 @@
 <!-- <script src=”systemjs.config.server.js”></script> -->
   <style>
  body {
-    overflow: hidden;
+    /*overflow: hidden;*/
+    /*height:100vh;*/
 }
 </style>
 <link rel="stylesheet" href="styles.9a206661e473927a060c.css"></head>
 <body >
   <app-root></app-root>
-<script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.2f4a59095805af02bd79.js"></script><script type="text/javascript" src="main.5eada6f8ff6fa23a5255.js"></script></body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+    function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+  </script>
+<script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.2f4a59095805af02bd79.js"></script><script type="text/javascript" src="main.113bdc45cbfb690d736b.js"></script></body>
 </html>
