@@ -249,6 +249,7 @@ span.video-txt {
 	.navbar-default{
 		border:none;
 	}
+	
 	/*.container{
 		width:100%;
 		}*/
@@ -504,7 +505,7 @@ span.video-txt {
 			}
 
 
-		
+			
 
 			/deep/.mat-form-field-wrapper {
 				position: relative;
@@ -534,10 +535,10 @@ span.video-txt {
 				padding-top: 32px !important;
 			}
 			.inner-tourism{
-				padding-left: 44px;
+				padding-left: 20px;
 				padding-top: 30px;
-				width: 442px;
-				padding-right: 30px;
+				width: 424px;
+				padding-right: 42px;
 
 			}
 			nav.toursim-menu li{

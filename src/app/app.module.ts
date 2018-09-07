@@ -28,8 +28,7 @@ import {MatDividerModule} from '@angular/material/divider';
     MatMenuModule,
     MatInputModule,
     RouterModule.forRoot(appRoutes),
-    MatDividerModule
-    
+    MatDividerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
