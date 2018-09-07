@@ -538,9 +538,9 @@ span.video-txt {
 				width: 100%;
 			}
 
-
-			
-
+			.container {
+				width: 863px;
+			}
 			/deep/.mat-form-field-wrapper {
 				position: relative;
 				padding-left: 15px;
