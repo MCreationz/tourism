@@ -535,10 +535,10 @@ span.video-txt {
 				padding-top: 32px !important;
 			}
 			.inner-tourism{
-				padding-left: 20px;
-				padding-top: 30px;
-				width: 424px;
-				padding-right: 42px;
+				left: -3px;
+				top: 30px;
+				width: 378px;
+				right: 42px;
 
 			}
 			nav.toursim-menu li{
