@@ -647,8 +647,8 @@
 					top: 5px;
 
 				}
-				.logo{
-					padding-top: 34px;
+				.logo[_ngcontent-c0] {
+					padding-top: 0px;
 				}
 				.logo span{
 					font-size: 18px;
