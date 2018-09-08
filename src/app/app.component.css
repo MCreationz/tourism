@@ -592,12 +592,6 @@
 					z-index: 15;
 					left: auto;
 				}
-				.tour-des p{
-					padding-top: 43px;
-					padding-left: 64px;
-					padding-right: 18px;
-					width: 100%;
-				}
 
 				.container {
 					width: 863px;
@@ -627,7 +621,10 @@
 					padding-top: 10px !important;
 				}
 				.tour-des p{
-					padding-top: 32px !important;
+					padding-left: 28px;
+					padding-right: 6px;
+					width: 100%;
+					padding-top: 15px!important;
 				}
 				.inner-tourism{
 					left: -3px;
