@@ -21,6 +21,8 @@
 	margin-right:0px;
 	margin-left:0px;
 }
+
+
 .inner-tourism {
 	max-width: 500px;
 	position: relative;
@@ -200,7 +202,7 @@
 	}*/
 	.logo{
 		float:left;
-		/*padding-top: 24px;*/
+		padding-left: 61px;
 	}
 	.toursim-menu li {
 		font-family:poppins;
@@ -209,7 +211,7 @@
 		color:#171717;
 		display:inline-block;
 		/*padding-left: 18px;*/
-		padding-left: 0;
+		padding-left: 31px;
 		top: 5px;
 
 	}
@@ -248,9 +250,9 @@
 		position: absolute;
 		top: 0;
 		z-index: 99999;
+		left: 0px;
 		width: 100%;
-		padding-top:8px;
-		background-color: transparent;
+		padding-top: 8px;
 	}
 	.bg-light{
 		background-color: transparent !important;
@@ -265,8 +267,6 @@
 	.image-col{
 		padding:0px;
 	}
-
-
 	/*responsive navbar*/
 	body {
 		overflow: hidden;
@@ -346,13 +346,15 @@
 			width: 80px !important;
 		}
 		.tour-des h1{
-			font-size:27px;
+			font-size:27px;padding-top: 15px !important;
+			margin-bottom: 0px;
+			padding-right: 61px;
 		}
 		.explore-btn{
 			top:0;
 		}
 		.explore{
-			padding-left: 24px;
+			padding-left: 7px;
 		}
 		.toursim-menu li{
 			display:block !important;
@@ -369,21 +371,22 @@
 			margin-top: 0px !important;
 		}
 		.sav_span{
-			font-size:15px;
-			padding:0px;
+			font-size: 11px;
+			padding: 0px;
+			float: right;
+			padding-right: 87px;
 		}
 		.num-tour{
 			font-size: 54px !important;
-			padding-left: 9px !important;
+			padding-left: 0px !important;
 		}
 		.tour-des p{
-			padding-top: 7px !important;
-			padding-left: 18px !important;
-			/* width: 93%; */
+			padding-top: 14px !important;
+			padding-left: 7px !important;
 			padding-right: 8px !important;
 			text-align: left;
 			font-size: 13px;
-			line-height: 27px;
+			line-height: 23px;
 		}
 		.explore-btn{
 			font-size: 12px;
@@ -393,6 +396,7 @@
 		}
 		.video_icon{
 			padding-top: 0px !important;
+			margin-top: -10px;
 		}
 		body { overflow-y: scroll !important; }
 		.carousel-indicators {
@@ -409,8 +413,8 @@
 		}
 		/deep/.carousel-indicators{
 			position: absolute;
-			right: -21px;
-			top: 200px;
+			right: -35px;
+			top: 184px;
 			z-index: 15;
 			left: auto;
 		}
@@ -422,7 +426,7 @@
 			padding-left: 16px !important;
 		}
 		.inner-tourism{
-			padding-left: 21px;
+			padding-left: 0px;
 			padding-top: 30px;
 			/*width: 287px;*/
 		}
@@ -431,368 +435,75 @@
 			padding-left: 37px;
 		}
 		.social-icons[_ngcontent-c0] {
-			padding-left: 0px;
+			padding: 29px 0px;
+			left: -36px;
+			position: absolute;
 		}
 		.toursim-menu{
-			width: 100%;
+			width: 95%;
+			}.outer-tourism[_ngcontent-c0] {
+				width: 285px;
+				margin: 0 auto;
+				float: none;
+			}
+			.logo[_ngcontent-c0] {
+				float: left;
+				padding-left: 0px;
+			}
 		}
-	}
-	@media (max-width:767px) and (min-width:481px) {
-		/deep/.carousel-indicators{
-			position: absolute;
-			right: -47px;
-			top: 172px;
-			z-index: 15;
-			left: auto;
+		@media (max-width:767px) and (min-width:481px) {
+			div#navbarSupportedContent{
+				/*border-color: #e7e7e7;*/
+				width: 100% !important;
+				height: 240px;
+				background-color: white !important;
+			}
+			.tour-des  p{
+				padding:0px ;
+			}
+			.num-tour{
+				padding-left:0px;
+			}
+	/*.container-fluid{
+		padding-left:0px !important;
+		padding-right:0px !important;
+		}*/
+		span.navbar-toggler-icon {
+			font-size: 15px;
 		}
-		.social-icons[_ngcontent-c0] {
-			padding-left: 0px;
-		}
-		div#navbarSupportedContent{
-			/*border-color: #e7e7e7;*/
-			width: 100% !important;
-			height: 240px;
-			background-color: white !important;
+		button.navbar-toggler.collapsed {
+			height: 33px;
+			width: 44px;
 		}
 		button.mat-menu{
-			left: 10px;
+			left: 0px;
 		}
-		.example-full-width{
-			left: 11px;
-			top: 14px;
+		.example-full-width[_ngcontent-c0] {
+			left: 1px;
+			top: 12px;
+		}
+		/deep/.fa-search {
+			padding-left: 86px !important;
 		}
 		/deep/.mat-form-field-infix {
-			width: 180px !important;
+			width: 80px !important;
+		}
+		.tour-des h1{
+			font-size: 19px;
+			padding-top: 11px !important;
+			margin-bottom: 0px;
+			padding-right: 0px;
+			width: 169px;
+		}
+		.explore-btn{
+			top:0;
+		}
+		.explore{
+			padding-left: 7px;
 		}
 		.toursim-menu li{
 			display:block !important;
-			font-weight:bold;
 		}
-		/deep/.mat-form-field-wrapper {
-			position: relative;
-			padding-left: 15px;
-		}
-		/deep/.fa-search {
-			padding-left: 179px !important;
-		}
-		/deep/span.mat-button-wrapper {
-			font-size: 17px;
-		}
-		.tour-des {
-			margin-top: 41px !important;
-		}
-		.logo[_ngcontent-c0] {
-			padding-left: 17px;
-		}
-		.num-tour{
-			font-size: 69px !important;
-			padding-left: 0px !important;
-		}
-		.social-icons li{
-			margin-top:0px;
-		}
-		.explore-btn{
-			padding-left: 15px;
-			margin-left: 0px;
-			top: 0px;
-			/*margin-top: 23px !important;*/
-		}
-		span.mat-button-wrapper {
-			font-size: 13px;
-		}
-		.video_icon{
-			padding-top: 0px !important;
-		}
-		.tour-des p{
-			padding-top: 0px !important;
-			padding-left: 0px !important;
-			font-size: 12px;
-			padding-right: 18px !important;
-			line-height: 27px;
-		}
-		.inner-tourism{
-			padding-left: 61px;
-			padding-top: 31px;
-			/*width: 429px;*/
-
-		}
-		.toursim-menu{
-			width: 100%;				
-		}
-	}
-	@media (max-width:900px) and (min-width:768px) {
-		/deep/.carousel-indicators{
-			/* left: 86%; */
-			position: absolute;
-			right: -42px;
-			top: 297px;
-			z-index: 15;
-			left: auto;
-		}
-		/deep/.mat-form-field-infix {
-			width: 128px !important;
-		}
-		.tour-des {
-			/*margin-top: 41px !important;*/
-		}
-		.num-tour{
-			font-size: 69px !important;
-			padding-left: 0px !important;
-		}
-		.explore-btn{
-			font-size: 13px;
-			top: 2px;
-			margin-left: 0px !important;
-			/*margin-top: 23px !important;*/
-		}
-		.video_icon{
-			padding-top: 0px !important;
-		}
-		.tour-des p{
-			padding-top: 7px !important;
-			padding-left: 0px;
-			text-align: left;
-			font-size: 14px;
-			line-height: 29px;
-		}
-		.inner-tourism{
-			padding-left: 4px;
-			/*width: 340px;*/
-		}
-		.social-icons li{
-			margin-top: 10px;
-
-		}
-		.social-icons{
-			padding-left: 0px;
-		}
-
-		.logo{
-			padding-top: 34px;
-		}
-		.logo span{
-			font-size: 12px;
-		}
-
-	}
-	@media (max-width:1024px) and (min-width:901px) {
-
-		/deep/.carousel-control.left{
-			display:none !important;
-		}
-		/deep/.carousel-control.right{
-			display:none !important;
-		}
-		/deep/.carousel-indicators .active{
-			background-color:#EA9036;
-		}
-		/deep/.carousel-indicators li{
-			background-color:#FBE7D4;
-		}
-		.social-icons {
-			padding-left: 32px;
-		}
-		/deep/.mat-form-field-infix{
-			width: 185px ;
-		}
-		.page-view{
-			margin-right:0px;
-			margin-left:0px;
-		}
-		.inner-tourism {
-			max-width: 500px;
-			position: relative;
-			float: left;
-			margin: 0px;
-		}
-		.outer-tourism{
-			width :100%;
-			/*position : fixed;*/
-		}
-		.tour-des{
-			margin-top: 100px;
-			/*text-align: center;*/
-			color:#010101;
-		}
-		.explore-btn{
-			font-family:poppins;
-			float: left;
-			font-weight: light;
-			margin-left: 36px;
-			top: 28px;
-			color:black;
-			font-size:16px;
-			background-color:#f8c783;
-		}
-		.sav_span{
-			font-family:poppins;
-			color:#58828b;
-			font-size:18px;
-			padding-left:20px;
-		}
-		.tour-des p{
-			font-family:poppins;
-			padding-top: 16px;
-			font-weight:regular;
-			color:#3b3b3b;
-			padding-left: 64px;
-			padding-right: 18px;
-			width: 92%;
-			line-height: 33px;
-			text-align: left;
-		}
-		/deep/.carousel-indicators{
-			display:block;
-		}
-		.explore{
-			padding-left: 24px;
-		}
-		/deep/.carousel-indicators{
-			/* left: 86%; */
-			position: absolute;
-			right: -56px;
-			top: 313px;
-			z-index: 15;
-			left: auto;
-			width: auto;
-		}
-		/deep/.carousel-indicators li {
-			background-color: #fbe7d4;
-			display: block !important;
-			border-radius: 100% !important;
-			height: 10px !important;
-			width: 10px !important;
-
-		}
-		.video_icon{
-			padding-top: 16px;
-		}
-		button.mat-menu {
-			left: 94px;
-		}
-		.example-full-width{
-			left: 92px;
-		}
-		span.toursim-txt {
-			background-color: #F8C783;
-		}
-		.social-icons li{
-			list-style: none;
-			display: inline-block;
-			margin-left: 10px;
-			float: left;
-			margin-top: 64px;
-			/* top: 73px; */
-			top: 38px;
-			font-size: 13px;
-		}
-		.social-icons li .fb{
-			background-color: #3a589b;
-			color: white;
-			padding: 4px 4px 2px 5px;
-
-
-		}
-		/deep/.mat-button{
-			font-family:poppins;
-			font-weight: regular;
-			font-size:14px;
-			color:#171717;
-		}
-
-
-		/*animation effects*/
-		/deep/.mat-button:hover{
-			background-color: #C5F2FC;
-			color:black;
-			/*font-weight:bold;*/
-			/*text-shadow: 1px 1px 1px #000000;*/
-			/*font-size:16px;*/
-		}
-		.tour-des h1,p{
-			margin-top: 25px;
-			/*font-size: 21px;*/
-			text-align: center;
-
-			-webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-			-moz-animation: fadein 4s; /* Firefox < 16 */
-			-ms-animation: fadein 4s; /* Internet Explorer */
-			-o-animation: fadein 4s; /* Opera < 12.1 */
-			animation: fadein 4s;
-		}
-
-		@keyframes fadein {
-			from { opacity: 0; }
-			to   { opacity: 1; }
-		}
-
-		/* Firefox < 16 */
-		@-moz-keyframes fadein {
-			from { opacity: 0; }
-			to   { opacity: 1; }
-		}
-
-		/* Safari, Chrome and Opera > 12.1 */
-		@-webkit-keyframes fadein {
-			from { opacity: 0; }
-			to   { opacity: 1; }
-		}
-
-		/* Internet Explorer */
-		@-ms-keyframes fadein {
-			from { opacity: 0; }
-			to   { opacity: 1; }
-		}
-
-		/* Opera < 12.1 */
-		@-o-keyframes fadein {
-			from { opacity: 0; }
-			to   { opacity: 1; }
-		}
-		span.video-txt {
-			font-size: 18px;
-			padding-left: 44px;
-		}
-		.play-icon{
-			width: 31px;
-			/* height: 130px; */
-			position: relative;
-			top: 10px;
-			margin-right: 10px;
-			fill: #fff;
-			font-size: 34px;
-			left: 43px;
-		}
-		.logo{
-			float:left;
-			/*padding-top: 24px;*/
-		}
-		.toursim-menu li {
-			font-family:poppins;
-			font-weight: regular;
-			font-size:14px;
-			color:#171717;
-			display:inline-block;
-			/*padding-left: 18px;*/
-			padding-left: 0;
-			top: 5px;
-
-		}
-		/deep/.fa-search{
-			padding-left: 172px;
-		}
-		@font-face {
-			font-family: hobo-std;
-			src: url('../assets/fonts/Hobo-Std-Medium_22891.ttf');
-		}
-		@font-face {
-			font-family: poppins;
-			src: url('../assets/fonts/Poppins-Regular.ttf');
-		}
-		@font-face {
-			font-family: ovo;
-			src: url('../assets/fonts/ovo_[allfont.net].ttf');
-		} 
 		.logo span{
 			font-family: hobo-std;
 			/*padding-left: 18px;*/
@@ -800,86 +511,487 @@
 			/*float: right;*/
 
 		}
-		.num-tour{
-			font-family: ovo;
-			float: left;
-			font-size: 60px;
-			padding-left: 67px;
-		}
-		/deep/.mat-button{
-			top:15px;
-		}
-		.toursim-menu{
-			position: absolute;
-			top: 0;
-			z-index: 99999;
-			width: 100%;
-			padding-top:8px;
-			background-color: transparent;
-		}
-		.bg-light{
-			background-color: transparent !important;
-		}
-		.toursim-menu ul{
-			/*margin-left:20px;*/
-			/*padding-top: 21px;*/
-		}
-		.tour-des[_ngcontent-c0] h1{
-			padding-top:20px;
-		}
-		.image-col{
-			padding:0px;
+		.col-sm-12 {
+			-webkit-box-flex: 0;
+			-ms-flex: 0 0 100%;
+			flex: 0 0 100%;
+			max-width: 40%;
 		}
 
-
-		/*responsive navbar*/
-		body {
-			overflow: hidden;
-			margin: 0;
-			font-family: Arial, Helvetica, sans-serif;
-		}
-
-		.topnav {
-			overflow: hidden;
-			/*background-color: #333;*/
-			padding-left: 78px;
-
-		}
-
-		.topnav a {
-			float: left;
-			display: block;
-			color: black;
-			text-align: center;
-			padding: 14px 23px;
-			text-decoration: none;
-			font-size: 17px;
-		}
-
-		.topnav a:hover {
-			background-color: black;
-			color: white;
-		}
-		.navbar-default{
-			border:none;
-		}
-		
-	/*.container{
-		width:100%;
-		}*/
-
-
-		.topnav .icon {
-			display: none;
-		}
-		.tourism{
-			height: 100vh;
-		}
-		.image-col{
-			height: 100vh;
+		.tour-des{
+			margin-top: 0px !important;
 		}
 		.sav_span{
-			padding-left: 10px;
+			font-size: 9px;
+			padding: 0px;
+			float: left;
+			padding-left: 8px;
+
+			}.navbar-toggler:not(:disabled):not(.disabled) {
+				cursor: pointer;
+				margin-right: 20px;
+			}
+			.num-tour{
+				font-size: 42px !important;
+				padding-left: 0px !important;
+			}
+			.tour-des p{
+				padding-top: 5px !important;
+				padding-left: 5px !important;
+				padding-right: 8px !important;
+				text-align: left;
+				font-size: 11px;
+				line-height: 17px;
+			}
+			.explore-btn{
+				font-size: 12px;
+				min-width: 68px;
+				line-height: 36px !important;
+				padding: 0px 6px !important;
+			}
+			/deep/.mat-button{
+
+			}
+			.play-icon{
+				font-size: 26px !important;
+				width: 35px;
+				position: relative;
+				top: 12px;
+				margin-right: -22px;
+				fill: #fff;
+				font-size: 34px;
+				left: 8px;
+			}
+			.video_icon{
+				padding-top: 3px !important;
+				margin-top: -10px;
+			}
+			body { overflow-y: scroll !important; }
+			.carousel-indicators {
+				left: 51% !important;
+			}
+
+			.explore-btn{
+				margin-left: 0px !important;
+				margin-top: 0px !important;
+			}
+			.social-icons li{
+				margin-left: 6px !important;
+				margin-top: -5px;
+			}
+			/deep/.carousel-indicators{
+				position: absolute;
+				right: -38px !important;
+				top: 201px;
+				z-index: 15;
+				left: auto;
+			}
+
+	/*.navbar-toggle{
+		margin-right:0px;
+		}*/
+		/deep/.mat-form-field-wrapper{
+			padding-left: 16px !important;
+		}
+		.inner-tourism{
+			padding-left: 0px;
+			padding-top: 30px;
+			/*width: 287px;*/
+		}
+		span.video-txt[_ngcontent-c0] {
+			font-size: 10px;
+			padding-left: 24px;
+		}
+		.social-icons[_ngcontent-c0] {
+			padding: 29px 0px;
+			left: -36px;
+			position: absolute;
+		}
+		.toursim-menu{
+			width: 95%;
+		}
+		.outer-tourism[_ngcontent-c0] {
+			width: 100%;
+			float: left;
+		}
+		.logo[_ngcontent-c0] {
+			float: left;
+			padding-left: 20px;
+			}.col-md-5.col-sm-12.col-xs-12.toursim {
+				width: 40%;
+				float: left;
+			}
+			.social-icons[_ngcontent-c0][_ngcontent-c0] {
+				padding: 37px 0px;
+				left: -35px;
+				position: absolute;
+			}
+			.col-md-7.col-sm-6.col-xs-12.image-col {
+				width: 60%;
+				float: left;
+			}
+
+		}
+		@media (max-width:900px) and (min-width:768px) {
+			div#navbarSupportedContent{
+				/*border-color: #e7e7e7;*/
+				width: 100% !important;
+				height: 240px;
+				background-color: white !important;
+			}
+			.tour-des  p{
+				padding:0px ;
+			}
+			.num-tour{
+				padding-left:0px;
+			}
+	/*.container-fluid{
+		padding-left:0px !important;
+		padding-right:0px !important;
+		}*/
+		span.navbar-toggler-icon {
+			font-size: 15px;
+		}
+		button.navbar-toggler.collapsed {
+			height: 33px;
+			width: 44px;
+		}
+		button.mat-menu{
+			left: 0px;
+		}
+		.example-full-width[_ngcontent-c0] {
+			left: 1px;
+			top: 12px;
+		}
+		/deep/.fa-search {
+			padding-left: 86px !important;
+		}
+		/deep/.mat-form-field-infix {
+			width: 80px !important;
+		}
+		.tour-des h1{
+			font-size: 20px;
+			padding-top: 13px !important;
+			margin-bottom: 0px;
+			padding-right: 0px;
+			width: 175px;
+		}
+		.explore-btn{
+			top:0;
+		}
+		.explore{
+			padding-left: 7px;
+		}
+		.toursim-menu li{
+			display:block !important;
+		}
+		.logo span{
+			font-family: hobo-std;
+			/*padding-left: 18px;*/
+			font-size: 18px;
+			/*float: right;*/
+
+		}
+		.col-sm-12 {
+			-webkit-box-flex: 0;
+			-ms-flex: 0 0 100%;
+			flex: 0 0 100%;
+			max-width: 40%;
 		}
 
-	}
+		.tour-des{
+			margin-top: 0px !important;
+		}
+		.sav_span{
+			font-size: 9px;
+			padding: 0px;
+			float: left;
+			padding-left: 8px;
+
+			}.navbar-toggler:not(:disabled):not(.disabled) {
+				cursor: pointer;
+				margin-right: 20px;
+			}
+			.num-tour{
+				font-size: 44px !important;
+				padding-left: 0px !important;
+			}
+			.tour-des p{
+				padding-top: 5px !important;
+				padding-left: 5px !important;
+				padding-right: 8px !important;
+				text-align: left;
+				font-size: 12px;
+				line-height: 30px;
+			}
+			.explore-btn{
+				font-size: 12px;
+				min-width: 68px;
+				line-height: 36px !important;
+				padding: 0px 6px !important;
+			}
+			/deep/.mat-button{
+
+			}
+			.play-icon{
+				font-size: 26px !important;
+				width: 35px;
+				position: relative;
+				top: 12px;
+				margin-right: -22px;
+				fill: #fff;
+				font-size: 34px;
+				left: 8px;
+			}
+			.video_icon{
+				padding-top: 3px !important;
+				margin-top: -10px;
+			}
+			body { overflow-y: scroll !important; }
+			.carousel-indicators {
+				left: 51% !important;
+			}
+
+			.explore-btn{
+				margin-left: 0px !important;
+				margin-top: 0px !important;
+			}
+			.social-icons li{
+				margin-left: 6px !important;
+				margin-top: -5px;
+			}
+			/deep/.carousel-indicators{
+				position: absolute;
+				right: -48px !important;
+				top: 231px;
+				z-index: 15;
+				left: auto;
+			}
+
+	/*.navbar-toggle{
+		margin-right:0px;
+		}*/
+		/deep/.mat-form-field-wrapper{
+			padding-left: 16px !important;
+		}
+		.inner-tourism{
+			padding-left: 0px;
+			padding-top: 30px;
+			/*width: 287px;*/
+		}
+		span.video-txt[_ngcontent-c0] {
+			font-size: 10px;
+			padding-left: 24px;
+		}
+		.social-icons[_ngcontent-c0] {
+			padding: 29px 0px;
+			left: -36px;
+			position: absolute;
+		}
+		.toursim-menu{
+			width: 95%;
+		}
+		.outer-tourism[_ngcontent-c0] {
+			width: 100%;
+			float: left;
+		}
+		.logo[_ngcontent-c0] {
+			float: left;
+			padding-left: 8px;
+			}.col-md-5.col-sm-12.col-xs-12.toursim {
+				width: 40%;
+				float: left;
+			}
+			.social-icons[_ngcontent-c0][_ngcontent-c0] {
+				padding: 37px 0px;
+				left: -35px;
+				position: absolute;
+			}
+			.col-md-7.col-sm-6.col-xs-12.image-col {
+				width: 60%;
+				float: left;
+			}
+
+		}
+		@media (max-width:1024px) and (min-width:901px) {
+
+			div#navbarSupportedContent{
+				/*border-color: #e7e7e7;*/
+				width: 100% !important;
+				height: 240px;
+				background-color: white !important;
+			}
+			.tour-des  p{
+				padding:0px ;
+			}
+			.num-tour{
+				padding-left:0px;
+			}
+	/*.container-fluid{
+		padding-left:0px !important;
+		padding-right:0px !important;
+		}*/
+		span.navbar-toggler-icon {
+			font-size: 15px;
+		}
+		button.navbar-toggler.collapsed {
+			height: 33px;
+			width: 44px;
+		}
+		button.mat-menu{
+			left: 0px;
+		}
+		.example-full-width[_ngcontent-c0] {
+			left: 1px;
+			top: 12px;
+		}
+		/deep/.fa-search {
+			padding-left: 86px !important;
+		}
+		/deep/.mat-form-field-infix {
+			width: 80px !important;
+		}
+		.tour-des h1{
+			font-size: 23px;
+			padding-top: 10px !important;
+			margin-bottom: 0px;
+			padding-right: 0px;
+			width: 200px;
+		}
+		.explore-btn{
+			top:0;
+		}
+		.explore{
+			padding-left: 7px;
+		}
+		.toursim-menu li{
+			display:block !important;
+		}
+		.logo span{
+			font-family: hobo-std;
+			/*padding-left: 18px;*/
+			font-size: 18px;
+			/*float: right;*/
+
+		}
+		.col-sm-12 {
+			-webkit-box-flex: 0;
+			-ms-flex: 0 0 100%;
+			flex: 0 0 100%;
+			max-width: 40%;
+		}
+
+		.tour-des{
+			margin-top: 0px !important;
+		}
+		.sav_span{
+			font-size: 9px;
+			padding: 0px;
+			float: left;
+			padding-left: 8px;
+
+			}.navbar-toggler:not(:disabled):not(.disabled) {
+				cursor: pointer;
+				margin-right: 0px;
+			}
+			.num-tour{
+				font-size: 44px !important;
+				padding-left: 0px !important;
+			}
+			.tour-des p{
+				padding-top: 5px !important;
+				padding-left: 5px !important;
+				padding-right: 8px !important;
+				text-align: left;
+				font-size: 15px;
+				line-height: 35px;
+			}
+			.explore-btn{
+				font-size: 12px;
+				/*min-width: 68px;
+				line-height: 36px !important;
+				padding: 0px 6px !important;*/
+			}
+			/deep/.mat-button{
+
+			}
+			.play-icon{
+				font-size: 28px !important;
+				width: 34px;
+				position: relative;
+				top: 9px;
+				margin-right: 1px;
+				fill: #fff;
+				font-size: 34px;
+				left: 42px;
+			}
+			.video_icon{
+				padding-top: 3px !important;
+				margin-top: -10px;
+			}
+			body { overflow-y: scroll !important; }
+			.carousel-indicators {
+				left: 51% !important;
+			}
+
+			.explore-btn{
+				margin-left: 0px !important;
+				margin-top: 0px !important;
+			}
+			.social-icons li{
+				margin-left: 6px !important;
+				margin-top: -5px;
+			}
+			/deep/.carousel-indicators{
+				position: absolute;
+				right: -53px !important;
+				top: 264px;
+				z-index: 15;
+				left: auto;
+			}
+
+	/*.navbar-toggle{
+		margin-right:0px;
+		}*/
+		/deep/.mat-form-field-wrapper{
+			padding-left: 16px !important;
+		}
+		.inner-tourism{
+			padding-left: 0px;
+			padding-top: 30px;
+			/*width: 287px;*/
+		}
+		span.video-txt[_ngcontent-c0] {
+			font-size: 14px;
+			padding-left: 50px;
+		}
+		.social-icons[_ngcontent-c0] {
+			padding: 29px 0px;
+			left: -36px;
+			position: absolute;
+		}
+		.toursim-menu{
+			width: 95%;
+		}
+		.outer-tourism[_ngcontent-c0] {
+			width: 100%;
+			float: left;
+		}
+		.logo[_ngcontent-c0] {
+			float: left;
+			padding-left: 8px;
+			}.col-md-5.col-sm-12.col-xs-12.toursim {
+				width: 40%;
+				float: left;
+			}
+			.social-icons[_ngcontent-c0][_ngcontent-c0] {
+				padding: 37px 0px;
+				left: -35px;
+				position: absolute;
+			}
+			.col-md-7.col-sm-6.col-xs-12.image-col {
+				width: 60%;
+				float: left;
+			}
+
+		}
