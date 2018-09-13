@@ -441,15 +441,16 @@
 		}
 		.toursim-menu{
 			width: 95%;
-			}.outer-tourism[_ngcontent-c0] {
-				width: 285px;
-				margin: 0 auto;
-				float: none;
 			}
-			.logo[_ngcontent-c0] {
-				float: left;
-				padding-left: 0px;
-			}
+		.outer-tourism[_ngcontent-c0] {
+			width: 285px;
+			margin: 0 auto;
+			float: none;
+		}
+		.logo[_ngcontent-c0] {
+			float: left;
+			padding-left: 0px;
+		}
 		}
 		@media (max-width:767px) and (min-width:481px) {
 			div#navbarSupportedContent{
@@ -463,71 +464,72 @@
 			}
 			.num-tour{
 				padding-left:0px;
+				}
+		/*.container-fluid{
+			padding-left:0px !important;
+			padding-right:0px !important;
+			}*/
+			span.navbar-toggler-icon {
+				font-size: 15px;
 			}
-	/*.container-fluid{
-		padding-left:0px !important;
-		padding-right:0px !important;
-		}*/
-		span.navbar-toggler-icon {
-			font-size: 15px;
-		}
-		button.navbar-toggler.collapsed {
-			height: 33px;
-			width: 44px;
-		}
-		button.mat-menu{
-			left: 0px;
-		}
-		.example-full-width[_ngcontent-c0] {
-			left: 1px;
-			top: 12px;
-		}
-		/deep/.fa-search {
-			padding-left: 86px !important;
-		}
-		/deep/.mat-form-field-infix {
-			width: 80px !important;
-		}
-		.tour-des h1{
-			font-size: 19px;
-			padding-top: 11px !important;
-			margin-bottom: 0px;
-			padding-right: 0px;
-			width: 169px;
-		}
-		.explore-btn{
-			top:0;
-		}
-		.explore{
-			padding-left: 7px;
-		}
-		.toursim-menu li{
-			display:block !important;
-		}
-		.logo span{
-			font-family: hobo-std;
-			/*padding-left: 18px;*/
-			font-size: 18px;
-			/*float: right;*/
+			button.navbar-toggler.collapsed {
+				height: 33px;
+				width: 44px;
+			}
+			button.mat-menu{
+				left: 0px;
+			}
+			.example-full-width[_ngcontent-c0] {
+				left: 1px;
+				top: 12px;
+			}
+			/deep/.fa-search {
+				padding-left: 86px !important;
+			}
+			/deep/.mat-form-field-infix {
+				width: 80px !important;
+			}
+			.tour-des h1{
+				font-size: 19px;
+				padding-top: 11px !important;
+				margin-bottom: 0px;
+				padding-right: 0px;
+				width: 169px;
+			}
+			.explore-btn{
+				top:0;
+			}
+			.explore{
+				padding-left: 7px;
+			}
+			.toursim-menu li{
+				display:block !important;
+			}
+			.logo span{
+				font-family: hobo-std;
+				/*padding-left: 18px;*/
+				font-size: 18px;
+				/*float: right;*/
 
-		}
-		.col-sm-12 {
-			-webkit-box-flex: 0;
-			-ms-flex: 0 0 100%;
-			flex: 0 0 100%;
-			max-width: 40%;
-		}
+			}
+			.col-sm-12 {
+				-webkit-box-flex: 0;
+				-ms-flex: 0 0 100%;
+				flex: 0 0 100%;
+				max-width: 40%;
+			}
 
-		.tour-des{
-			margin-top: 0px !important;
-		}
-		.sav_span{
-			font-size: 9px;
-			padding: 0px;
-			float: left;
-			padding-left: 8px;
+			.tour-des{
+				margin-top: 0px !important;
+			}
+			.sav_span{
+				font-size: 9px;
+				padding: 0px;
+				float: left;
+				padding-left: 8px;
 
-			}.navbar-toggler:not(:disabled):not(.disabled) {
+				}
+			.navbar-toggler:not(:disabled):not(.disabled) {
 				cursor: pointer;
 				margin-right: 20px;
 			}
@@ -815,12 +817,12 @@
 		}
 		@media (max-width:1024px) and (min-width:901px) {
 
-			div#navbarSupportedContent{
-				/*border-color: #e7e7e7;*/
+			/*div#navbarSupportedContent{
+				border-color: #e7e7e7;
 				width: 100% !important;
 				height: 240px;
 				background-color: white !important;
-			}
+			}*/
 			.tour-des  p{
 				padding:0px ;
 			}
