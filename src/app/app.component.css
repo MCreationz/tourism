@@ -177,25 +177,25 @@ span.video-txt {
 	padding-left: 75px;
 }
 .play-icon{
-	    width: 28px;
-    position: relative;
-    top: 2px;
-    padding: 5px 11px;
-    margin-right: 10px;
-    fill: #fff;
-    border: 1px solid black;
-    border-radius: 100%;
-    font-size: 22px;
-    left: 74px;
+	width: 28px;
+	position: relative;
+	top: 2px;
+	padding: 5px 11px;
+	margin-right: 10px;
+	fill: #fff;
+	border: 1px solid black;
+	border-radius: 100%;
+	font-size: 22px;
+	left: 74px;
 }
 
 
 /*.menu-cls{
 	width: 1118px;
 	}*/
-	.logo{
-		float:left;
-		padding-left: 61px;
+	.logo[_ngcontent-c0] {
+		float: left;
+		padding-left: 30px;
 	}
 	.toursim-menu li {
 		font-family:poppins;
