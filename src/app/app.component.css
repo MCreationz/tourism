@@ -1184,7 +1184,7 @@ span.video-txt {
 		}
 			@media (max-width:1400px) and (min-width:1201px) {
 			.toursim-menu[_ngcontent-c0] li[_ngcontent-c0] {
-				padding-left: 24px !important;
+				padding-left:47px!important;
 			}
 			.num-tour[_ngcontent-c0][_ngcontent-c0] {
 			    font-family: ovo;
@@ -1235,16 +1235,16 @@ span.video-txt {
 			.col-md-5.col-sm-12.col-xs-12.toursim {
 				width: 40%;
 				float: left;
-				height: 627px !important;
+				height: 657px !important;
 			}
 			
 			.col-md-7.col-sm-6.col-xs-12.image-col {
 				width: 60%;
 				float: left;
-				height: 627px !important;
+				height: 657px !important;
 			}
 			.tour-img{
-				height: 627px !important;
+				height: 657px !important;
 			}
 			.tour-des[_ngcontent-c0] {
 			    margin-top: 81px;
